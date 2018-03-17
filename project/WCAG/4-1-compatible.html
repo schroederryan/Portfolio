@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>4.1 Compatible | Ryan Schroeder</title>
+	<link rel="stylesheet" type="text/css" href="/Scripts/portfolio.css">
+	<link rel="stylesheet" href="/Scripts/fonts/css/font-awesome.min.css">
+	<script type="text/javascript" src="/Scripts/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/Scripts/portfolio.js"></script>
+	<meta name="viewport" content='width=device-width, initial-scale =1.0, user-scalable=0'>
+
+	<!--Favicons-->
+	<link rel="apple-touch-icon" sizes="180x180" href="/Images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/Images/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/Images/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/Images/favicons/manifest.json">
+	<link rel="mask-icon" href="/Images/favicons/safari-pinned-tab.svg">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Ryan Schroeder: a project manager and usability/accessibility specialist from Michigan State University">
+	<meta name="keywords" content="HTML, CSS, Portfolio, JavaScript, about, project manager, web developer">
+	<meta name="author" content="Ryan Schroeder">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@schroeder_ry">
+	<meta name="twitter:title" content="4.1 Compatible">
+	<meta name="twitter:description" content="If you understand from the beginning why accessible content is important it makes actually creating accessible content that much easier...">
+	<meta name="twitter:creator" content="@schroeder_ry">
+	<!-- Twitter summary card with large image must be at least 280x150px -->
+	<meta name="twitter:image:src" content="http://www.schroederryan.com/Images/social/4-1.png">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="4.1 Compatible" />
+	<meta property="og:type" content="profile" />
+	<meta property="og:url" content="http://www.schroederryan.com/project/WCAG/4-1-compatible" />
+	<meta property="og:image" content="http://www.schroederryan.com/Images/4-1.png" />
+	<meta property="og:description" content="If you understand from the beginning why accessible content is important it makes actually creating accessible content that much easier..."/>
+	<meta property="og:site_name" content="Ryan Schroeder" />
+</head>
+<body>
+	<header>
+		<a href="http://www.schroederryan.com/"><img src="/Images/logo.png" alt="Ryan Schroeder"></a>
+		<span class="hamburger" id="mainHamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+		<nav>
+			<span class="hamburger" id="navHamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+			<hr>
+			<ul>
+				<li><a href="http://www.schroederryan.com/">Home</a></li>
+				<li><a href="/projects">Projects</a></li>
+				<li><a href="/posts">Posts</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<article class="post">
+			<h1>4.1 Compatible</h1>
+			<span>December 5th, 2016</span>
+			<h2>Definition</h2>
+			<p>“Maximize compatibility with current and future user agents, including assistive technologies.” - <a href="https://www.w3.org/TR/WCAG20/#ensure-compat" target="_blank" title="World Wide Web Consortium">World Wide Web Consortium.</a></p>
+			<h2>What's that mean?</h2>
+			<p>The criterion is in place to ensure content and Web elements are compatible with all technologies, while also ensuring they will be compatible in the future.</p>
+			<h2>Why?</h2>
+			<p>Much like Internet browsers, it’s important that all users can interact with your content. By creating content and developing Web elements in a semantic, industry-standard way, all users, no matter their assistive technologies, will be able to access the information in the same way.</p>
+			<h2>Example</h2>
+			<p>This criterion is best demonstrated through a demo of a working assistive technology and one that is broken because of the content. However, as I mentioned above, this is much like Internet browsers. Each browser has their own quirks and ways to display information, but to a web developer and to the creator of the browser itself, there are standards put in place to ensure widespread consistency. It is just as important for both the creator to build the browser to adhere to these rules, as much as it is important for the Web developer to create content that follows these rules. If you build solely for Google Chrome, your site may function similarly on Internet Explorer, but it won’t be the exact same. The same idea is applied to assistive technologies.</p>
+			<h2>PDF</h2>
+			<img src="/Images/Compatible.png" alt="PDF of Compatible guideline">
+			<span class="readMore"><a href="/PDF/Compatible.pdf" target="_blank" onclick="ga('send', 'event', 'download', 'Keyboard Accessible');">Download PDF Version</a></span>
+			<div class="share">
+				<ul>
+					<li><a href="http://www.facebook.com/sharer/sharer.php?u=http://schroederryan.com/project/WCAG/4-1-compatible&title=4.1 Compatible" target="_blank"><img src="/Images/facebook.png" alt="share on Facebook"></a></li>
+					<li><a href="http://twitter.com/intent/tweet?status=4.1 Compatible+http://schroederryan.com/project/WCAG/4-1-compatible" target="_blank"><img src="/Images/twitter.png" alt="share on Twitter"></a></li>
+				</ul>
+			</div>
+			<hr>
+			<div class="prevArticle"><h3>Prev</h3><a href="/project/WCAG/3-3-input-assistance">3.3 Input Assistance</a></div>
+		</article>
+	</section>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-71319550-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>

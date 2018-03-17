@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Most Populous Cities | Ryan Schroeder</title>
+	<link rel="stylesheet" type="text/css" href="/Scripts/portfolio.css">
+	<link rel="stylesheet" href="/Scripts/fonts/css/font-awesome.min.css">
+	<script type="text/javascript" src="/Scripts/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/Scripts/portfolio.js"></script>
+	<meta name="viewport" content='width=device-width, initial-scale =1.0, user-scalable=0'>
+
+	<!--Favicons-->
+	<link rel="apple-touch-icon" sizes="180x180" href="/Images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/Images/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/Images/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/Images/favicons/manifest.json">
+	<link rel="mask-icon" href="/Images/favicons/safari-pinned-tab.svg">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Ryan Schroeder: a project manager and usability/accessibility specialist from Michigan State University">
+	<meta name="keywords" content="HTML, CSS, Portfolio, JavaScript, about, project manager, web developer">
+	<meta name="author" content="Ryan Schroeder">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@schroeder_ry">
+	<meta name="twitter:title" content="Most Populous Cities">
+	<meta name="twitter:description" content="This was a project to display large amounts of data in an interactive website.">
+	<meta name="twitter:creator" content="@schroeder_ry">
+	<!-- Twitter summary card with large image must be at least 280x150px -->
+	<meta name="twitter:image:src" content="http://www.schroederryan.com/Images/social/cities.png">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Most Populous Cities" />
+	<meta property="og:type" content="profile" />
+	<meta property="og:url" content="http://www.schroederryan.com/project/most-populous-cities" />
+	<meta property="og:image" content="http://www.schroederryan.com/Images/social/cities.png" />
+	<meta property="og:description" content="This was a project to display large amounts of data in an interactive website."/>
+	<meta property="og:site_name" content="Ryan Schroeder" />
+</head>
+<body>
+	<header>
+		<a href="http://www.schroederryan.com/"><img src="/Images/logo.png" alt="Ryan Schroeder"></a>
+		<span class="hamburger" id="mainHamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+		<nav>
+			<span class="hamburger" id="navHamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+			<hr>
+			<ul>
+				<li><a href="http://www.schroederryan.com/">Home</a></li>
+				<li><a href="/projects">Projects</a></li>
+				<li><a href="/posts">Posts</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<article class="post">
+			<h1>Most Populous Cities</h1>
+			<span>April, 2017</span>
+			<p>This was a project to display large amounts of data in an interactive website. Starting with a large data set of the 100 most populous cities in the United States, I went through a very iterative process to create an interactive website that allows users to sort through the data.</p>
+			<h2>Process</h2>
+			<p>This project involved multiple steps to ensure the final product was the solution that solved for multiple different scenarios and situations. The first step was to actually gather the data. The only requirement was to have 7 different categories of data. I chose the following to categorize the 100 most populous cities in the United States: </p>
+			<p>This project involved multiple steps to ensure the final product was the solution that solved for multiple different scenarios and situations. The first step was to actually gather the data. The only requirement was to have 7 different categories of data. I chose the following to categorize the 100 most populous cities in the United States: state, land size, population size, median income, average rent, time zone, and if I have visited the city or not.</p>
+			<p>After gathering all of the data, I had to come up with a creative way to display all of this information on a static poster. The challenge with this process is the amount of information I was working with and trying to come up with a key that could display all of the data without being too cluttered. In the end, I used different colors, different sized circles and different patterns to represent the different scales throughout the cities.</p>
+			<p>Now that I had a static poster to represent my data, I started wireframing an interactive website that the data could live on. Hosting the data in a website offers many advantages such as the ability to filter data in real time. The basis for these wireframes came from the different apartment websites I have visited. Many of these sites include a map of the area to interact with as well as a sidebar with the information for the selection. I approached this website in much the same way allowing users to both interact with the map as well as read the data on each city.</p>
+			<p>From wireframes, I moved to the full scale designs that I then put into Keynote to show some of the interactivity. Because this is a highly interactive website, I wanted to show some of that in the presentation on the website. The final design complements the static poster and offers a great user experience to view the most populous cities and to add more cities into the database to create an ever-growing list of all cities in the United States.</p>
+			<h2>Gathering Data</h2>
+			<p>The first step was to create the data I was going to be using throughout the project. I utilized the lists created by Wikipedia to gather the 100 most populous cities as well as information on land size, population and time zone. Unfortunately, Wikipedia didn't have reliable information on median income and average rent so I turned to a website called City Data that had comprehensive data on almost every major city in the United States. The end result was a Google Doc with all data entered.</p>
+			<img src="/Images/CitiesData.png" alt="Google Doc of 100 most populous cities">
+			<h2>Poster</h2>
+			<p>After gathering the data, I had to come up with a way to display all of the information on a poster that could be understood by everyone.</p>
+			<h3>Sketches</h3>
+			<p>As you can see from the photos below, my first idea was to create a map and plot each city on the map. I was then going to list each city above the graph of the map so users could quickly identify which city went with which dot on the map. From there, I was going to vary the colors used to display the other information.</p>
+			<img src="/Images/PosterSketch.png" alt="Sketch of my poster">
+			<h3>First Version</h3>
+			<p>After digitizing my sketches, I realized that listing each city above the graph was going to more work than was necessary. I decided to remove the listings of the cities and instead represent each city by where they were on the map. I also solidified decisions on patters and colors to represent the median income and the average rent. Different sizes of circles were to encompass the dot on the map to represent the population and the land size.</p>
+			<img src="/Images/PosterVersion1.png" alt="First Version of the poster">
+			<h3>Final Version</h3>
+			<p>The final version of the poster was largely the same as the first version with the only differences being cosmetic. I changed up a few of the patterns to offer more differentiation between them and fixed the overall layout.</p>
+			<img src="/Images/PosterFinal.png" alt="Final Version of the poster">
+			<a href="/PDF/PosterFinal.pdf" target="_blank">Full Size Version</a>
+			<h2>Interactive Website</h2>
+			<p>After creating the static poster for the data, I went ahead and started coming up with ideas for an interactive website that would allow users to search through the data and visualize the information easily while also allowing them to manipulate the information that isn't possible with a poster.</p>
+			<h3>Sketches</h3>
+			<p>My first idea for this website was to have the map that I created for the poster be the main interactive element for the website. I wanted the two different steps to flow together and having the map in the background would make it easy for users to navigate around the United States if they weren't sure what city they wanted to view.</p>
+			<img src="/Images/WebsiteSketch.png" alt="Sketches of the website">
+			<img src="/Images/WebsiteSketch1.png" alt="Sketches of the website">
+			<img src="/Images/WebsiteSketch2.png" alt="Sketches of the website">
+			<h3>Wireframes</h3>
+			<p>After I created a few sketches to get my ideas on paper, I moved to Illustrator to create more polished wireframes of the website. I was still sticking with the original idea to have the map in the background. I also was largely going off the look and feel of several apartment/house websites. These types of websites allow you to search, filter and interact with a map to help find where you would like to live.</p>
+			<img src="/Images/CitiesWireframe1.png" alt="Wireframe of the website">
+			<img src="/Images/CitiesWireframe2.png" alt="Wireframe of the website">
+			<img src="/Images/CitiesWireframe3.png" alt="Wireframe of the website">
+			<img src="/Images/CitiesWireframe4.png" alt="Wireframe of the website">
+			<img src="/Images/CitiesWireframe5.png" alt="Wireframe of the website">
+			<h3>Final Designs</h3>
+			<p>At this point, the concept had change quite a bit from what I was envisioning throughout the sketches and the wireframe process. I wasn't a huge fan of the a user sign-in area because it deviated from my original idea to just include data for the 100 most populous cities. I did, however, keep the ability to add a city that will then be automatically entered on the map and its data visible. My hope is that it would build out to one day include all cities in the United States as more and more users add to it.</p>
+			<h4>Landing Page</h4>
+			<img src="/Images/CitiesFinal1.png" alt="Home page">
+			<h4>Search with filters</h4>
+			<img src="/Images/CitiesFinal2.png" alt="Search page design with filters">
+			<h4>Search Results</h4>
+			<img src="/Images/CitiesFinal3.png" alt="Search results page design">
+			<h4>List View</h4>
+			<img src="/Images/CitiesFinal4.png" alt="List view of cities">
+			<h4>City Data</h4>
+			<img src="/Images/CitiesFinal5.png" alt="Data for an individual city">
+			<h4>Add a city</h4>
+			<img src="/Images/CitiesFinal6.png" alt="Add to database popup design">
+			<h4>Interactivity</h4>
+			<p>For this project, I incorporated a video to show some of the interactivity of the website. This was done by importing the Illustrator file into After Effects and piecing together the timeline. The end result is a great representation of how a user would interact and filter through the immense amounts of data.</p>
+			<video controls width="100%">
+				<source src="/Images/videos/PrototypeWebsite.mp4" type="video/mp4">
+			</video>
+			<div class="share">
+				<ul>
+					<li><a href="http://www.facebook.com/sharer/sharer.php?u=http://schroederryan.com/project/most-populous-cities&title=Most Populous Cities" target="_blank"><img src="/Images/facebook.png" alt="share on Facebook"></a></li>
+					<li><a href="http://twitter.com/intent/tweet?status=Most Populous Cities+http://schroederryan.com/project/most-populous-cities" target="_blank"><img src="/Images/twitter.png" alt="share on Twitter"></a></li>
+				</ul>
+			</div>
+		</article>
+	</section>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-71319550-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>

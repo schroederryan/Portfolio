@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>1.4 Distinguishable | Ryan Schroeder</title>
+	<link rel="stylesheet" type="text/css" href="/Scripts/portfolio.css">
+	<link rel="stylesheet" href="/Scripts/fonts/css/font-awesome.min.css">
+	<script type="text/javascript" src="/Scripts/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/Scripts/portfolio.js"></script>
+	<meta name="viewport" content='width=device-width, initial-scale =1.0, user-scalable=0'>
+
+	<!--Favicons-->
+	<link rel="apple-touch-icon" sizes="180x180" href="/Images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/Images/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/Images/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/Images/favicons/manifest.json">
+	<link rel="mask-icon" href="/Images/favicons/safari-pinned-tab.svg">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Ryan Schroeder: a project manager and usability/accessibility specialist from Michigan State University">
+	<meta name="keywords" content="HTML, CSS, Portfolio, JavaScript, about, project manager, web developer">
+	<meta name="author" content="Ryan Schroeder">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@schroeder_ry">
+	<meta name="twitter:title" content="1.4 Distinguishable">
+	<meta name="twitter:description" content="If you understand from the beginning why accessible content is important it makes actually creating accessible content that much easier...">
+	<meta name="twitter:creator" content="@schroeder_ry">
+	<!-- Twitter summary card with large image must be at least 280x150px -->
+	<meta name="twitter:image:src" content="http://www.schroederryan.com/Images/social/1-4.png">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="1.4 Distinguishable" />
+	<meta property="og:type" content="profile" />
+	<meta property="og:url" content="http://www.schroederryan.com/project/WCAG/1-4-distinguishable" />
+	<meta property="og:image" content="http://www.schroederryan.com/Images/1-4.png" />
+	<meta property="og:description" content="If you understand from the beginning why accessible content is important it makes actually creating accessible content that much easier..."/>
+	<meta property="og:site_name" content="Ryan Schroeder" />
+</head>
+<body>
+	<header>
+		<a href="http://www.schroederryan.com/"><img src="/Images/logo.png" alt="Ryan Schroeder"></a>
+		<span class="hamburger" id="mainHamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+		<nav>
+			<span class="hamburger" id="navHamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+			<hr>
+			<ul>
+				<li><a href="http://www.schroederryan.com/">Home</a></li>
+				<li><a href="/projects">Projects</a></li>
+				<li><a href="/posts">Posts</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<article class="post">
+			<h1>1.4 Distinguishable</h1>
+			<span>October 10th, 2016</span>
+			<h2>Definition</h2>
+			<p>“Make it easier for users to see and hear content including separating foreground from background” - <a href="https://www.w3.org/TR/WCAG20/#visual-audio-contrast" target="_blank" title="World Wide Web Consortium">World Wide Web Consortium.</a></p>
+			<h2>What's that mean?</h2>
+			<p>Essentially, you shouldn’t rely on one method to distinguish two areas of your website. These areas could be separating headers from main content, text from media, or even different data on a bar graph.</p>
+			<h2>Why?</h2>
+			<p>It’s important to understand that what might be easily distinguishable to you might not be easily distinguishable to others or those with a disability. Additionally, screen readers cannot pick up styles used throughout a website. This means that using a different color to separate one block of content from another will not be understood by those using a screen reader. The contrast of two colors, <a href="https://www.w3.org/WAI/WCAG20/quickref/#qr-visual-audio-contrast-contrast" target="_blank" title="WCAG Color Contrast">as stated by WCAG</a>, should be a ratio of 4:5:1 throughout your website.</p>
+			<h2>Types</h2>
+			<p>The following are additional criterion under the Distinguishable guideline that satisfy up to Level AA. There are additional criterion in order to meet Level AAA. These are all elements that should be considered when developing content for your website. For more information on a particular criterion under the Distinguishable guideline, please refer to <a href="https://www.w3.org/TR/WCAG20/#visual-audio-contrast" target="_blank" title="World Wide Web Consortium Section 1.4">section 1.4 Distinguishable.</a>
+				<ul id="WCAGlist">
+					<li>Use of Color</li>
+					<li>Audio Controls</li>
+					<li>Contrast</li>
+					<li>Resize Text</li>
+					<li>Images of Text</li>
+				</ul>
+			</p>
+			<h2>Example</h2>
+			<p>It is common for designers and developers to use different colors to separate different areas of their website. However, the contrast of these colors can prevent some users from understanding the content. Color blind users might not be able to visualize that the blocks of content are different from one another and the content might not be interpreted as you, the creator, would like it to be. As mentioned, it’s important to keep a contrast ratio of at least 4:5:1 throughout your website to ensure overall understanding.</p>
+			<h2>PDF</h2>
+			<img src="/Images/Distinguishable.png" alt="PDF of Distinguishable guideline">
+			<span class="readMore"><a href="/PDF/Distinguishable.pdf" target="_blank" onclick="ga('send', 'event', 'download', 'Adaptable');">Download PDF Version</a></span>
+			<div class="share">
+				<ul>
+					<li><a href="http://www.facebook.com/sharer/sharer.php?u=http://schroederryan.com/project/WCAG/1-4-distinguishable&title=1.4 Distinguishable" target="_blank"><img src="/Images/facebook.png" alt="share on Facebook"></a></li>
+					<li><a href="http://twitter.com/intent/tweet?status=1.4 Distinguishable+http://schroederryan.com/project/WCAG/1-4-distinguishable" target="_blank"><img src="/Images/twitter.png" alt="share on Twitter"></a></li>
+				</ul>
+			</div>
+			<hr>
+			<div class="prevArticle"><h3>Prev</h3><a href="/project/WCAG/1-3-adaptable">1.3 Adaptable</a></div>
+			<div class="nextArticle"><h3>Next</h3><a href="/project/WCAG/2-1-keyboard-accessible">2.1 Keyboard Accessible</a></div>
+		</article>
+	</section>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-71319550-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>

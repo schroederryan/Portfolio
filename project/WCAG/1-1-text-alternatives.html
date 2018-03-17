@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>1.1 Text Alternatives | Ryan Schroeder</title>
+	<link rel="stylesheet" type="text/css" href="/Scripts/portfolio.css">
+	<link rel="stylesheet" href="/Scripts/fonts/css/font-awesome.min.css">
+	<script type="text/javascript" src="/Scripts/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/Scripts/portfolio.js"></script>
+	<meta name="viewport" content='width=device-width, initial-scale =1.0, user-scalable=0'>
+
+	<!--Favicons-->
+	<link rel="apple-touch-icon" sizes="180x180" href="/Images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/Images/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/Images/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/Images/favicons/manifest.json">
+	<link rel="mask-icon" href="/Images/favicons/safari-pinned-tab.svg">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Ryan Schroeder: a project manager and usability/accessibility specialist from Michigan State University">
+	<meta name="keywords" content="HTML, CSS, Portfolio, JavaScript, about, project manager, web developer">
+	<meta name="author" content="Ryan Schroeder">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@schroeder_ry">
+	<meta name="twitter:title" content="1.1 Text Alternatives">
+	<meta name="twitter:description" content="If you understand from the beginning why accessible content is important it makes actually creating accessible content that much easier...">
+	<meta name="twitter:creator" content="@schroeder_ry">
+	<!-- Twitter summary card with large image must be at least 280x150px -->
+	<meta name="twitter:image:src" content="http://www.schroederryan.com/Images/1-1.png">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="1.1 Text Alternatives" />
+	<meta property="og:type" content="profile" />
+	<meta property="og:url" content="http://www.schroederryan.com/project/WCAG/1-1-text-alternatives" />
+	<meta property="og:image" content="http://www.schroederryan.com/Images/1-1.png" />
+	<meta property="og:description" content="If you understand from the beginning why accessible content is important it makes actually creating accessible content that much easier..."/>
+	<meta property="og:site_name" content="Ryan Schroeder" />
+</head>
+<body>
+	<header>
+		<a href="http://www.schroederryan.com/"><img src="/Images/logo.png" alt="Ryan Schroeder"></a>
+		<span class="hamburger" id="mainHamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+		<nav>
+			<span class="hamburger" id="navHamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+			<hr>
+			<ul>
+				<li><a href="http://www.schroederryan.com/">Home</a></li>
+				<li><a href="/projects">Projects</a></li>
+				<li><a href="/posts">Posts</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<article class="post">
+			<h1>1.1 Text Alternatives</h1>
+			<span>September 19th, 2016</span>
+			<h2>Definition</h2>
+			<p>“Provide text alternatives for any non-text content so that it can be changed into other forms people need, such as large print, braille, speech, symbols or simpler language.” - <a href="https://www.w3.org/TR/WCAG20/#text-equiv" target="_blank" title="World Wide Web Consortium">World Wide Web Consortium.</a></p>
+			<h2>What's that mean?</h2>
+			<p>If you display content in any way other than through text, such as an audio file or video, you should provide a text alternative of the content. This could be something like a transcript for a video or a sign language video for an audio file.</p>
+			<h2>Why?</h2>
+			<p>Text alternatives for non-text content are necessary to provide the content to a wider audience. Text alternatives have the unique ability of being manipulated visually, audibly, or symbolically depending on the user and their needs/preferences. Providing a text alternative of a graph, for example, will help a visually impaired user understand the content of the graph.</p>
+			<h2>Caveats</h2>
+			<p>Non-text content such as CAPTCHAs, time based content or tests to name a few, require different guidance to meet the text alternative requirement. For example, if you include a CAPTCHA on your website to ensure humans are participating in the action and not computers, you would need to include a text alternative describing the CAPTCHA for you users. For guidance on all non-text content situations, refer to <a href="https://www.w3.org/TR/WCAG20/#text-equiv" target="_blank" title="Section 1.1 of Text Alternatives">section 1.1.1 of the WCAG guidelines.</a></p>
+			<h2>Example</h2>
+			<p>A great example of this would be a video of a lecture. This is common in education as we look to utilize more technology into courses each year. If I were to upload of a video of me lecturing for a half hour, I would need to provide a text-transcript of that lecture. This transcript should contain all of the information and content that was said in the video, so users who are visually or hearing impaired could manipulate the text to understand the content.</p>
+			<h2>PDF</h2>
+			<img src="/Images/TextAlternatives.png" alt="PDF of Text Alternatives">
+			<span class="readMore"><a href="/PDF/TextAlternatives.pdf" target="_blank" onclick="ga('send', 'event', 'download', 'click', 'Text Alternatives');">Download PDF Version</a></span>
+			<div class="share">
+				<ul>
+					<li><a href="http://www.facebook.com/sharer/sharer.php?u=http://schroederryan.com/project/WCAG/1-1-text-alternatives&title=1.1 Text Alternatives" target="_blank"><img src="/Images/facebook.png" alt="share on Facebook"></a></li>
+					<li><a href="http://twitter.com/intent/tweet?status=1.1 Text Alternatives+http://schroederryan.com/project/WCAG/1-1-text-alternatives" target="_blank"><img src="/Images/twitter.png" alt="share on Twitter"></a></li>
+				</ul>
+			</div>
+			<hr>
+			<div class="nextArticle"><h3>Next</h3><a href="/project/WCAG/1-2-time-based-media">1.2 Time Based Media</a></div>
+		</article>
+	</section>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-71319550-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Portfolio Website | Ryan Schroeder</title>
+	<link rel="stylesheet" type="text/css" href="/Scripts/portfolio.css">
+	<link rel="stylesheet" href="/Scripts/fonts/css/font-awesome.min.css">
+	<script type="text/javascript" src="/Scripts/jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="/Scripts/portfolio.js"></script>
+	<meta name="viewport" content='width=device-width, initial-scale =1.0, user-scalable=0'>
+
+	<!--Favicons-->
+	<link rel="apple-touch-icon" sizes="180x180" href="/Images/favicons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" href="/Images/favicons/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="/Images/favicons/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="/Images/favicons/manifest.json">
+	<link rel="mask-icon" href="/Images/favicons/safari-pinned-tab.svg">
+	<meta name="theme-color" content="#ffffff">
+
+	<meta charset="UTF-8">
+	<meta name="description" content="Ryan Schroeder: a project manager and usability/accessibility specialist from Michigan State University">
+	<meta name="keywords" content="HTML, CSS, Portfolio, JavaScript, about, project manager, web developer">
+	<meta name="author" content="Ryan Schroeder">
+
+	<!-- Twitter Card data -->
+	<meta name="twitter:card" content="summary_large_image">
+	<meta name="twitter:site" content="@schroeder_ry">
+	<meta name="twitter:title" content="Portfolio Website">
+	<meta name="twitter:description" content="I know it may seem a little weird to talk about my portfolio website on my portfolio website but I think it’s important at the same time.">
+	<meta name="twitter:creator" content="@schroeder_ry">
+	<!-- Twitter summary card with large image must be at least 280x150px -->
+	<meta name="twitter:image:src" content="http://www.schroederryan.com/Images/social/PortfolioSocial.png">
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Portfolio Website" />
+	<meta property="og:type" content="profile" />
+	<meta property="og:url" content="http://www.schroederryan.com/project/portfolio-website" />
+	<meta property="og:image" content="http://www.schroederryan.com/Images/social/PortfolioSocial.png" />
+	<meta property="og:description" content="I know it may seem a little weird to talk about my portfolio website on my portfolio website but I think it’s important at the same time."/>
+	<meta property="og:site_name" content="Ryan Schroeder" />
+</head>
+<body>
+	<header>
+		<a href="http://www.schroederryan.com/"><img src="/Images/logo.png" alt="Ryan Schroeder"></a>
+		<span class="hamburger" id="mainHamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+		<nav>
+			<span class="hamburger" id="navHamburger"><i class="fa fa-bars fa-2x" aria-hidden="true"></i></span>
+			<hr>
+			<ul>
+				<li><a href="http://www.schroederryan.com/">Home</a></li>
+				<li><a href="/projects">Projects</a></li>
+				<li><a href="/posts">Posts</a></li>
+				<li><a href="/contact">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<section>
+		<article class="post">
+			<h1>Portfolio Website</h1>
+			<span>December, 2016</span>
+			<h2>Project</h2>
+			<p>I know it seems a little weird to include your portfolio website project on your actual portfolio website but I think there is value in its addition. Unlike most portfolio websites, I created mine from scratch designing and coding the entire thing. I firmly believe that with my major and my inevitable entrance into the technology industry when I graduate, I need to show that I can create a working website from start to finish. This portfolio website also serves as a great place to showcase my other projects and my blog posts.</p>
+			<h2>Process</h2>
+			<p>I tried to go about this portfolio website just like I would any other professional project. I started out sketching my ideas and moving to more full-fledged designs in my go-to design program, Sketch. It was important to me to make sure that I was getting the most out of my website so I started designing with the content in mind. As with most portfolio websites, you have a place for your work, you have your optional blog and then you have an about me/contact page. These were all the basic things I wanted to include on my website but wanted them to be simple and easily manageable.</p>
+			<img src="/Images/PortfolioWireframes.png" alt="Wireframes of my portfolio website">
+			<p>Developing the website took the most time as it required a lot of supplemental research on my end. I had taken a few web authoring courses before creating this website but none that included everything I was trying to include in my portfolio. I also had the added challenge of ensuring my website was full accessible according to the Web Content Accessibility Guidelines (WCAG) created by the World Wide Consortium (W3C). I have done a lot of accessibility work in my career thus far and have directed people to my website from conferences explicitly on accessibility.</p>
+			<img src="/Images/portfolio.png" alt="Portfolio design">
+			<h2>Takeaways</h2>
+			<p>I don’t develop websites very often, though my role at Quicken Loans allows me to create more web content through coding for internal team members. I enjoyed the challenge of creating my portfolio website and then creating the content for it. I hope to continually update it and redesign it with new standards and trends in the years to come. I can never really sit on one design for too long before I want to change it completely and learn something new. That constant change, however, is half the fun for me.</p>
+			<div class="share">
+				<ul>
+					<li><a href="http://www.facebook.com/sharer/sharer.php?u=http://schroederryan.com/project/portfolio-website&title=Portfolio Website" target="_blank"><img src="/Images/facebook.png" alt="share on Facebook"></a></li>
+					<li><a href="http://twitter.com/intent/tweet?status=Portfolio Website+http://schroederryan.com/project/portfolio-website" target="_blank"><img src="/Images/twitter.png" alt="share on Twitter"></a></li>
+				</ul>
+			</div>
+		</article>
+	</section>
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-71319550-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+</body>
+</html>
